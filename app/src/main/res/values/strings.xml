@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PocketBedrock</string>
+
+    <!-- Foreground service notification -->
+    <string name="notif_channel_server">Server status</string>
+    <string name="notif_channel_server_desc">Persistent status for the running Minecraft Bedrock server (required for 24/7 operation).</string>
+    <string name="notif_channel_alerts">Alerts</string>
+    <string name="notif_channel_alerts_desc">Crash, overheat and player-join notifications.</string>
+
+    <string name="notif_title_offline">Server offline</string>
+    <string name="notif_title_starting">Server starting…</string>
+    <string name="notif_title_online">Server online</string>
+    <string name="notif_title_stopping">Server stopping…</string>
+    <string name="notif_title_crashed">Server crashed</string>
+
+    <string name="notif_action_start">Start</string>
+    <string name="notif_action_stop">Stop</string>
+    <string name="notif_action_restart">Restart</string>
+
+    <!-- Boot auto-start fallback -->
+    <string name="boot_start_failed_title">Tap to start PocketBedrock</string>
+    <string name="boot_start_failed_text">Auto-start on boot could not launch the server directly (Android restriction). Tap to start it.</string>
+</resources>
